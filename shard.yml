@@ -1,0 +1,13 @@
+name: minestat
+version: 0.1.0
+
+authors:
+  - unn4m3d <smelnikov871@gmail.com>
+
+dependencies:
+  timeout:
+    github: ctiapps/timeout
+
+crystal: 0.24.1
+
+license: MIT
