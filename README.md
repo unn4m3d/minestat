@@ -19,7 +19,7 @@ Use this [like ruby version](https://github.com/ldilley/minestat/blob/master/Rub
 ```crystal
 require "minestat"
 
-server = MineStat::Data.new "minecraft.dilley.me", 25565u32
+ms = MineStat::Data.new "minecraft.dilley.me", 25565u32
 puts "Minecraft server status of #{ms.address} on port #{ms.port}:"
 if ms.online
   puts "Server is online running version #{ms.version.not_nil!} with #{ms.current_players.not_nil!} out of #{ms.max_players.not_nil!} players."
